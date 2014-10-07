@@ -1,40 +1,37 @@
-.u-title
-{
-	color: red;
-	text-decoration: underline;
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
 }
 
-.Header 
-{
-
+.MainMenu-item{
+	display: inline-block;
 }
 
-.Header-imageContainer
-{
-
+.MainMenu-link{
+	color: #00DBFF;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+	text-decoration: none;
 }
 
-.Header-name
-{
-
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
 }
 
-.MainMenu
-{
-
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../img/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-.Profile
-{
-
-}
-
-.Work
-{
-
-}
-
-.Footer
-{
-
+.Header-image{
+	border-radius: 50%;
 }
