@@ -23,6 +23,11 @@
 				<li class="MainMenu-item"><a class="MainMenu-link" href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
+		<form action="" method="post" id="formulario" class="Header-form">
+			<input class="Header-formInput" type="text" id="titulo" placeholder="Título" required>
+			<input class="Header-formInput" type="url" id="url" placeholder="Link" required>
+			<button type="submit" class="Header-button">Agregar</button>
+		</form>
 		<figure class="Header-imageContainer">
 			<img src="../static/img/yo.png" alt="Imagen Personal" class="Header-image">
 			<figcaption>
@@ -111,10 +116,10 @@
 			<h3 class="Footer-title">Contacto</h3>
 			<p class="Footer-description">Tienes una sugerencia o quieres trabajar conmigo, ponte en contacto con este formulario</p>
 		</div>
-		<form action="" class="Footer-form">
-			<input class="Footer-formInput" type="text" name="" id="" placeholder="nombre"/>
-			<input class="Footer-formInput" type="email" name="" id="" placeholder="email"/>
-			<textarea class="Footer-formTextarea" name="" id="" placeholder="mensaje"></textarea>
+		<form action="" method="post" class="Footer-form">
+			<input class="Footer-formInput" type="text" name="Name" id="Name" placeholder="nombre" required/>
+			<input class="Footer-formInput" type="email" name="Email" id="Email" placeholder="email" required>
+			<textarea class="Footer-formTextarea" name="Message" id="Message" placeholder="mensaje" required></textarea>
 			<button class="Footer-button" type="submit">Contactarme</button>
 			
 		</form>
